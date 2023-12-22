@@ -202,3 +202,37 @@ body {
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+@media (max-width: 768px) {
+  .home-page {
+    font-size: 64px; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust the positioning and dimensions of specific elements for smaller screens */
+  .home-page-inner,
+  .rectangle-div {
+    top: 593px;
+    height: 73px;
+  }
+
+  .group-icon {
+    top: 67px;
+  }
+
+  .home-parent {
+    top: 20px;
+    left: 20px;
+    width: 80%; /* Adjust the width for smaller screens */
+  }
+
+  .ellipse-parent {
+    top: 20px;
+    left: 20px;
+    width: 80%; /* Adjust the width for smaller screens */
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
+
+  .group-div {
+    top: 680px;
+    left: 20px;
+  }
+}
