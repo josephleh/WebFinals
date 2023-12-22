@@ -59,6 +59,11 @@ body {
   background-color: var(--color-darkslategray-100);
   width: 160.1px;
   height: 52px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.home-page-item:hover {
+    background-color: royalblue;
+    color: #121212;
 }
 .b {
   text-transform: capitalize;
